@@ -49,7 +49,7 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: simple/youtube
+    - icon: fontawesome/brands/youtube
       link: https://youtube.com/@james-willett
-    - icon: simple/linkedin
+    - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/willettjames
