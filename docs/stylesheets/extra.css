@@ -1,0 +1,596 @@
+/* Real Style For Mahjong Tile */
+.analysis {
+  width: 100%;
+  text-align: left;
+}
+
+.singletile {
+  max-height: 40px;
+  display: inline;
+  vertical-align: bottom;
+  margin-top: 10px;
+}
+
+
+img[alt="singletile"] {  
+  max-height: 40px;
+  display: inline;
+  vertical-align: baseline;
+  margin-top: 10px;
+}
+
+img[alt="drawtile"] {  
+  max-height: 60px; 
+  display: inline;
+  vertical-align: middle; /* Aligns with text properly */
+}
+
+img[alt="verticaldrawtile"] {  
+  max-height: 46px;
+  display: inline;
+  vertical-align: bottom;
+  margin-top: 10px;
+}
+
+.verticaldrawtile {  
+  max-height: 46px;
+  display: inline;
+  vertical-align: bottom;
+  margin-top: 10px;
+}
+
+.drawtile {  
+  max-height: 60px; 
+  display: inline;
+  vertical-align: middle; /* Aligns with text properly */
+}
+
+img[alt="opentile"] {  
+  max-height: 60px; 
+  display: inline;
+  vertical-align: middle; /* Aligns with text properly */
+  margin-top: 24px;
+}
+
+.excercise {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;;
+  border: 2px solid #444;  /* A slightly thicker border for a nice box */
+  border-radius: 6px;
+  padding: 1rem;           /* Padding inside the fieldset */
+  margin: 1.5rem 0;
+  align-items: center; /* centers vertically */
+  text-align: left;
+}
+
+.excercise legend.left-align {
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.1rem;
+  padding: 0 0.5rem;       /* Some spacing around the legend text */
+}
+
+.excercise legend.right-align {
+  font-weight: bold;
+  text-align: right;
+  font-size: 1.1rem;
+  padding: 0 0.5rem;       /* Some spacing around the legend text */
+}
+
+.figure-caption {
+  display: inline-block;
+  vertical-align: above;
+  margin-left: 20px;
+  text-align: center;
+}
+
+
+/* End of Style */
+
+
+/* Real Style For Curly Brace */
+
+.my-line {
+  border: none;            /* Remove default border */
+  height: 5px;             /* Thickness of the line */
+  background-color: #f10000;  /* Line color */
+  width: 90%;              /* Length of the line */
+  margin: 20px auto;       /* Center it and add spacing */
+}
+
+.decrease-margin-top {
+  margin-top: -10px;
+}
+
+.garisbawah {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  min-height: 160px;
+}
+
+.empty-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 10px;
+}
+
+.brace-bottom {
+  display: block;
+  min-width: 100%;
+  padding-top: 20px;
+  position: relative;
+  margin: 15px 15px 0;
+  background-image: radial-gradient(
+      circle at 0 20px,
+      rgba(255, 255, 255, 0) 15px,
+      #fff 15.5px,
+      #fff 19px,
+      rgba(255, 255, 255, 0) 19.5px
+    ),
+    radial-gradient(
+      circle at 35px 20px,
+      rgba(255, 255, 255, 0) 15px,
+      #fff 15.5px,
+      #fff 19px,
+      rgba(255, 255, 255, 0) 19.5px
+    );
+  background-size: 35px 20px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+  &:before {
+    content: '';
+    width: 50%;
+    height: 70%;
+    border-bottom: 4px solid #fff;
+    border-left: 1px solid #fff;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    box-sizing: border-box;
+    margin-top: -9px;
+  }
+
+  &:after {
+    content: '';
+    width: 50%;
+    height: 70%;
+    border-bottom: 4px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+    box-sizing: border-box;
+    margin-top: -9px;
+  }
+}
+
+
+.brace-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: visible; /* allow the curly brace to overflow safely */
+  display: flex;
+  justify-content: center;
+}
+
+
+/* End of Style */
+
+
+
+img[alt="minipic"] {  
+    max-height: 90px; 
+    display: inline;
+    vertical-align: middle; /* Aligns with text properly */
+  }
+  
+
+  /* docs/.vitepress/theme/custom.css */
+.logo {
+  width: 150px;             /* sesuaikan ukuran sesuai keinginan */
+  height: 150px;
+  background-image: url('/mahjong/logo.png'); /* pastikan path sesuai dengan base */
+  background-size: contain; /* atau cover, tergantung tampilan yang diinginkan */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;           /* untuk center horizontal */
+}
+
+
+img[alt="miniset"] {  
+  max-height: 60px; 
+  display: inline;
+  vertical-align: below; /* Aligns with text properly */
+  margin-left: 10px;
+  margin-right: -10px;
+}
+
+/* Container to line up the tiles */
+.mahjong-hand {
+  display: flex;
+  align-items: flex-end; /* Aligns bottom edge of tiles */
+  gap: 0; /* No gap between tiles unless you want one */
+  margin: 1em 0;
+}
+
+/* Style for each tile image */
+
+img[alt="firsttile"] {
+  max-height: 40px;
+  display: inline;
+  vertical-align: bottom;
+  margin-top: 10px;
+  margin-left: -5px;
+  margin-right: -11.5px;
+}
+
+img[alt="midletile"] {
+  max-height: 40px;
+  display: inline;
+  vertical-align: bottom;
+  margin-top: 10px;
+  margin-right: -11.5px;
+}
+
+img[alt="righttile"] {
+  max-height: 40px;
+  display: inline;
+  vertical-align: bottom;
+  margin-top: 10px;
+}
+
+img[alt="onetile"] {
+  max-height: 40px;
+  display: inline;
+  vertical-align: bottom;
+  margin-top: 10px;
+}
+
+img[alt="htiles"] {
+  max-height: 45px;
+  display: inline;
+  vertical-align: bottom;
+  margin-left: 10px;
+  margin-right: -28px; /* Slight overlap to simulate real tile spacing */
+}
+
+/* End of the style */
+
+
+/* Style for each tile image INSIDE FIELDSET */
+
+img[alt="FSfirsttile"] {
+  max-height: 60px;
+  display: inline;
+  vertical-align: bottom;
+  margin-top: 10px;
+  margin-left: -5px;
+  margin-right: -18px;
+}
+
+img[alt="FSmidletile"] {
+  max-height: 60px;
+  display: inline;
+  vertical-align: bottom;
+  margin-top: 10px;
+  margin-right: -18px;
+}
+
+img[alt="FSrighttile"] {
+  max-height: 60px;
+  display: inline;
+  vertical-align: bottom;
+  margin-top: 10px;
+}
+
+img[alt="FSonetile"] {
+  max-height: 60px;
+  display: inline;
+  vertical-align: bottom;
+  margin-top: 10px;
+}
+
+img[alt="FSopentile"] {
+  max-height: 60px;
+  display: inline;
+  vertical-align: bottom;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: -18px;
+}
+
+img[alt="FSrighthtiles"] {
+  max-height: 46px;
+  display: inline;
+  vertical-align: bottom;
+  margin-right: -18px; /* Slight overlap to simulate real tile spacing */
+}
+
+.tile-with-caption {
+  display: inline-block;
+  text-align: center;
+  vertical-align: bottom; /* ⬅️ Aligns with other tiles properly */
+  margin-left: 20px;
+  margin-right: -20px;
+  margin-top: 24px;
+}
+
+.tile-with-caption img[alt="FSopentile"] {
+  max-height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* End of the style */
+
+
+/* Style Fieldset with redline class */
+
+.redline {
+  border: 2px solid #ff4747;  /* A slightly thicker border for a nice box */
+  border-radius: 6px;
+  padding: 1rem;           /* Padding inside the fieldset */
+  margin: 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap; /* optional if you want tiles to wrap on small screens */
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+  text-align: left;
+}
+
+.redline legend {
+  text-align: center;
+  color:#ff4747;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0 0.5rem;       /* Some spacing around the legend text */
+}
+
+/* End of the style */
+
+/* Style Fieldset with blackline class */
+
+.blackline {
+  border: 2px solid #888888;  /* A slightly thicker border for a nice box */
+  border-radius: 6px;
+  padding: 1rem;           /* Padding inside the fieldset */
+  margin: 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap; /* optional if you want tiles to wrap on small screens */
+  justify-content: flex-start; /* centers horizontally */
+  align-items: flex-start; /* centers vertically */
+  text-align: left;
+  flex-direction: column;
+}
+
+.blackline legend {
+  text-align: center;
+  color:#888888;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0 0.5rem;       /* Some spacing around the legend text */
+}
+
+/* End of the style */
+
+/* Style Fieldset with mahjong-group class */
+
+.mahjong-group {
+  border: 2px solid #444;  /* A slightly thicker border for a nice box */
+  border-radius: 6px;
+  padding: 1rem;           /* Padding inside the fieldset */
+  margin: 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap; /* optional if you want tiles to wrap on small screens */
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+  text-align: left;
+}
+
+.mahjong-group legend {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0 0.5rem;       /* Some spacing around the legend text */
+}
+
+.mahjong-group legend.left-align {
+  text-align: left;
+}
+
+/* End of the style */
+
+
+/* Style Fieldset with no-border class */
+
+.no-border {
+  border: 0px solid #444;  /* A slightly thicker border for a nice box */
+  padding: 1rem;           /* Padding inside the fieldset */
+  margin: 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap; /* optional if you want tiles to wrap on small screens */
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+  text-align: left;
+}
+
+.no-border legend {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0 0.5rem;       /* Some spacing around the legend text */
+}
+
+.no-border-margin {
+  border: 0px solid #444;  /* A slightly thicker border for a nice box */
+  padding: 1rem;           /* Padding inside the fieldset */
+  margin: 1.5rem 0;
+  margin-top: -50px;
+  display: flex;
+  flex-wrap: wrap; /* optional if you want tiles to wrap on small screens */
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+  text-align: left;
+}
+
+/* End of the style */
+
+img[alt="tiles"] {
+  max-height: 60px;
+  display: inline;
+  vertical-align: bottom;
+  margin-left: 10px;
+  margin-right: -28px; /* Slight overlap to simulate real tile spacing */
+}
+
+img[alt="dalamgaris"] {
+  height: 30px;
+  margin-bottom: -10px;
+}
+
+img[alt="tigaratus"] {
+  width: 300px;
+  margin: 0 auto;
+}
+
+img[alt="enamratus"] {
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+img[alt="Tenhou"] {
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+img[alt="small"] {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.center {
+  width: 400px;
+  margin: 0 auto;
+}  
+
+.tile-category {
+  margin: 1rem 0;          /* Spacing between categories */
+}
+
+.category-label {
+  margin-bottom: 0.5rem;
+}
+
+.category-label strong {
+  margin-right: 0.5rem;
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap; /* optional: wrap to next line if too many tiles */
+  align-items: center;
+}
+
+.tiles img {
+  height: 70px;
+}
+
+
+.righto {
+  text-align: right; /* or left, right */
+}
+
+.honor-tiles {
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.honor-tiles legend {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+
+.tile-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tile-table td {
+  border: none; /* Makes border transparent */
+  text-align: center;
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+.tile-table tr {
+  border: none; /* Makes border transparent */
+  text-align: center;
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+.tile-table .category {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 1rem;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.tile-table .tile img {
+  height: 70px;
+  display: block;
+  margin: 0 auto 0.3rem;
+}
+
+
+.discard-question {
+  width: 100%;
+  text-align: left;
+  margin-top: 12px;
+  padding-top: 8px;
+}
+
+.discarded {
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+  padding-top: 8px;
+}
+
+.underline {
+  display: inline-block;
+  text-align: center;
+  border-bottom: 3px dashed #0071bc;
+  padding-left: 5px;
+  padding-right: 10px;
+  margin: 5px
+}
+
+
+
+/* Style for the auto shrink image in fieldset */
+
+.auto-shrink {
+  display: flex;
+}
+
+.auto-shrink .timg {
+  flex-shrink: ;
+}
+
+/* End Of Style */

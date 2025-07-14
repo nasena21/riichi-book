@@ -1,4 +1,6 @@
-site_name: My Docs
+site_name: Riichi Book
+docs_dir: docs
+site_dir: site
 site_url: https://example.com
 theme:
   name: material
@@ -9,6 +11,10 @@ theme:
   favicon: assets/chun.png
   features:
     - navigation.footer
+    - navigation.path
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
   palette:
     # Dark Mode
     - scheme: slate
@@ -28,6 +34,7 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -46,10 +53,50 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+  - footnotes
 
 extra:
+  alternate:
+    - name: English
+      link: /English/
+      lang: en
+    - name: Indonesia
+      link: /Indonesia/
+      lang: id      
+    - name: 日本語
+      link: /Japanese/
+      lang: ja
+
   social:
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/@james-willett
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/willettjames
+      link: https://linkedin.com/in/willettjames/
+
+plugins:
+  - glightbox
+
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - English:
+    - About:
+      - English/00_About/01_Introduction.md
+      - English/00_About/02_Credit.md
+      - English/00_About/03_Preface.md
+      - English/00_About/04_Plan_of_the_book.md
+      - English/00_About/05_Daftar_Isi.md
+    - Introduction to Tenhou:
+      - English/01_Introduction_to_Tenhou/01_Why_play_online.md
+      - English/01_Introduction_to_Tenhou/02_Setting_up_an_account.md
+      - English/01_Introduction_to_Tenhou/03_The_main_page.md
+      - English/01_Introduction_to_Tenhou/04_Playing_a_game.md
+      - English/01_Introduction_to_Tenhou/05_Troubleshooting.md
+      - English/01_Introduction_to_Tenhou/06_Rules.md
+  - Indonesia:
+    - Home: /Indonesia/
+  - Japanese:
+    - Home: /Japanese/
