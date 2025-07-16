@@ -5,7 +5,7 @@ Playing mahjong online is an excellent way to practice your mahjong skills. You 
 
 Another advantage of online playing is that you can easily keep the record of your playing history and obtain detailed statistics from all the games you play. Analyzing these statistics will help you identify what skill sets you need to work on. You can also show your game record to your friends and ask for their opinions about particular choices you’ve made in a game.
 
-![tigaratus](/assets/image/tenhou.png){ align=right }
+![tigaratus](../../assets/image/tenhou.png){ align=right }
 
 
 

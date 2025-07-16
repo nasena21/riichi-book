@@ -3,7 +3,7 @@
 ## I Playing Riichi Online
 
 ### 1. Introduction to Tenhou
-- [1.1 Why play online?](/00_About/01_Introduction_to_Tenhou/01_Why_play_online?.md)
+- [1.1 Why play online?](../01_Introduction_to_Tenhou/01_Why_play_online.md)
 - [1.2 Setting up an account](../01_Introduction_to_Tenhou/02_Setting_up_an_account.md)
 - [1.3 The main page](../01_Introduction_to_Tenhou/03_The_main_page.md)
 - [1.4 Playing a game](../01_Introduction_to_Tenhou/04_Playing_a_game.md)

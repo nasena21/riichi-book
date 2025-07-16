@@ -3,7 +3,7 @@
 
 Here is what the Tenhou main page looks like when you ﬁrst log on in. The right half of the main page shows your statistics (currently all the ﬁelds are blank because you haven’t played any games), and the left half shows the games you can play and some other features.
 
-![Tenhou](/assets/image/tenhou12.png)
+![Tenhou](../../assets/image/tenhou12.png)
 
 In the second line of the left hand side, you see three numbers. In the example above, they are 1857, 915, and 118 (the numbers will be diﬀerent on your screen). These numbers show that 1857 players are currently online, 915 players are waiting, and 118 players are about to ﬁnish their games.
 
@@ -18,7 +18,7 @@ Games in the left column (under 東風戦 tonpusen) are East-only games,[^1] and
 
 
 
-![Tenhou](/assets/image/tenhou13.png)
+![Tenhou](../../assets/image/tenhou13.png)
 
 Games in the ﬁrst row (喰断ナシ kuitan nashi) are unusual games where open tanyao (All Simples) is not allowed; you have to have a concealed hand to claim tanyao. [^3]
 

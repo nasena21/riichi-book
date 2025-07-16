@@ -54,6 +54,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - footnotes
+  - pymdownx.arithmatex:
+      generic: true
 
 extra:
   alternate:
@@ -76,9 +78,14 @@ extra:
 plugins:
   - glightbox
 
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
 extra_css:
   - stylesheets/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 nav:
   - Home: index.md
@@ -96,6 +103,11 @@ nav:
       - English/01_Introduction_to_Tenhou/04_Playing_a_game.md
       - English/01_Introduction_to_Tenhou/05_Troubleshooting.md
       - English/01_Introduction_to_Tenhou/06_Rules.md
+    - Advanced Features of Tenhou:
+      - English/02_Advanced_features_of_Tenhou/01_Rank_and_rating.md
+      - English/02_Advanced_features_of_Tenhou/02_Four_rooms.md
+      - English/02_Advanced_features_of_Tenhou/03_Reading_the_statistics.md
+      - English/02_Advanced_features_of_Tenhou/04_Viewing_games.md
   - Indonesia:
     - Home: /Indonesia/
   - Japanese:
