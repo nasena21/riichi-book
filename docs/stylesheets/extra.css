@@ -11,12 +11,35 @@
   margin-top: 10px;
 }
 
+.arrow {
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.arrow-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  margin-top: 80px;
+}
+
+.action-text {
+  font-weight: bold;
+  margin-right: 10px;
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+  padding-top: 8px;
+}
 
 img[alt="singletile"] {  
-  max-height: 40px;
+  max-height: 35px;
   display: inline;
   vertical-align: baseline;
   margin-top: 10px;
+  margin-bottom: -10px;
 }
 
 img[alt="drawtile"] {  
@@ -594,3 +617,4 @@ img[alt="small"] {
 }
 
 /* End Of Style */
+

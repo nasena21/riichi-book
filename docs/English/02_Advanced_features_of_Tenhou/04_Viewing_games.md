@@ -15,5 +15,5 @@ You can choose to open a game replay in the current window ( こ の ウィン �
 
 To start a replay, click on a link that reads » Flash 版牌譜ビューアで 開 く shown at the bottom of the page. Clicking on the HTML+JS 版 牌譜ビューアで開く link will also work, but this one is the low-quality picture version with limited options.
 
-## 2.4.2 pectating games ( 観戦)
+## 2.4.2 Spectating games ( 観戦)
 You can watch games played in the 特 上 (tokujou; advanced) and the 鳳凰 (houou; phoenix) rooms in quasi-real time (with a ﬁveminute delay). Click on the 観 戦 (kansen; spectating) tab from the main page and you will see the list of games you can watch. Click on one of the player name links to start spectating the game from the chosen player’s viewpoint.
