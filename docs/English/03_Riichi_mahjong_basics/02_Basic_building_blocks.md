@@ -357,12 +357,12 @@ However, a closed-wait protorun ![singletile](../../assets/image/tiles/3-pin.png
 
 
 ## 3.2.5 Pairs (toitsu)
-A set of two identical tiles is called a pair (toitsu). Pairs can perform
+A set of two identical tiles is called a **pair** (toitsu). Pairs can perform
 several different roles. A pair can be the head (ﬁnal pair) of a
 hand, a protoset (a candidate for a set), or a component of chiitoitsu
 (Seven Pairs).
 
-Building the head
+### Building the head
 
 Any hand — including Thirteen Orphans and Seven Pairs — requires
 the head to be complete. Since building the head is much easier
@@ -372,74 +372,65 @@ the head. For example, consider the following hand.
 <fieldset class="mahjong-group">
   <legend>Hand with no head</legend>
 
-![drawtile](../../assets/image/tiles/7-man.png)
-![drawtile](../../assets/image/tiles/8-man.png)
-![drawtile](../../assets/image/tiles/9-man.png)
-![drawtile](../../assets/image/tiles/2-pin.png)
-![drawtile](../../assets/image/tiles/3-pin.png)
-![drawtile](../../assets/image/tiles/4-pin.png)
-![drawtile](../../assets/image/tiles/5-pin.png)
-![drawtile](../../assets/image/tiles/6-pin.png)
-![drawtile](../../assets/image/tiles/7-pin.png)
-![drawtile](../../assets/image/tiles/3-sou.png)
-![drawtile](../../assets/image/tiles/4-sou.png)
-![drawtile](../../assets/image/tiles/5-sou.png)
-![drawtile](../../assets/image/tiles/6-sou.png)
+<img src="/assets/image/tiles/7-man.png" alt="drawtile">
+<img src="/assets/image/tiles/8-man.png" alt="drawtile">
+<img src="/assets/image/tiles/9-man.png" alt="drawtile">
+<img src="/assets/image/tiles/2-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/3-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/4-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/5-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/6-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/7-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/3-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/4-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/5-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/7-sou.png" alt="drawtile">
 
 </fieldset>
 
 
-This hand currently lacks the head and the wait is not very good.  
-The hand is complete only with ![singletile](../../assets/image/tiles/7-sou.png) (1 kind–3 tiles). However, if we  
-draw any of:  
-![singletile](../../assets/image/tiles/6-man.png)  ![singletile](../../assets/image/tiles/9-man.png)  ![singletile](../../assets/image/tiles/1-pin.png)  ![singletile](../../assets/image/tiles/2-pin.png)  ![singletile](../../assets/image/tiles/4-pin.png)  ![singletile](../../assets/image/tiles/5-pin.png)  ![singletile](../../assets/image/tiles/7-pin.png)  ![singletile](../../assets/image/tiles/8-pin.png)  ![singletile](../../assets/image/tiles/2-sou.png)  ![singletile](../../assets/image/tiles/3-sou.png)  ![singletile](../../assets/image/tiles/5-sou.png)  ![singletile](../../assets/image/tiles/6-sou.png)  (12 kinds–41 tiles), the wait will be significantly improved. For example, if we draw ![singletile](../../assets/image/tiles/5-pin.png) and  discard ![singletile](../../assets/image/tiles/7-sou.png), the hand becomes:
+This hand currently lacks the head and the wait is not very good. The hand is complete only with ![singletile](../../assets/image/tiles/7-sou.png) (1 kind–3 tiles). However, if we draw any of:  ![singletile](../../assets/image/tiles/6-man.png)  ![singletile](../../assets/image/tiles/9-man.png)  ![singletile](../../assets/image/tiles/1-pin.png)  ![singletile](../../assets/image/tiles/2-pin.png)  ![singletile](../../assets/image/tiles/4-pin.png)  ![singletile](../../assets/image/tiles/5-pin.png)  ![singletile](../../assets/image/tiles/7-pin.png)  ![singletile](../../assets/image/tiles/8-pin.png)  ![singletile](../../assets/image/tiles/2-sou.png)  ![singletile](../../assets/image/tiles/3-sou.png)  ![singletile](../../assets/image/tiles/5-sou.png)  ![singletile](../../assets/image/tiles/6-sou.png)  (12 kinds–41 tiles), the wait will be significantly improved. For example, if we draw ![singletile](../../assets/image/tiles/5-pin.png) and  discard ![singletile](../../assets/image/tiles/7-sou.png), the hand becomes:
 
 <div class="no-border">
 
-![drawtile](../../assets/image/tiles/7-man.png)
-![drawtile](../../assets/image/tiles/8-man.png)
-![drawtile](../../assets/image/tiles/9-man.png)
-![drawtile](../../assets/image/tiles/2-pin.png)
-![drawtile](../../assets/image/tiles/3-pin.png)
-![drawtile](../../assets/image/tiles/4-pin.png)
-![drawtile](../../assets/image/tiles/5-pin.png)
-![drawtile](../../assets/image/tiles/5-pin.png)
-![drawtile](../../assets/image/tiles/6-pin.png)
-![drawtile](../../assets/image/tiles/7-pin.png)
-![drawtile](../../assets/image/tiles/3-sou.png)
-![drawtile](../../assets/image/tiles/4-sou.png)
-![drawtile](../../assets/image/tiles/5-sou.png)
+<img src="/assets/image/tiles/7-man.png" alt="drawtile">
+<img src="/assets/image/tiles/8-man.png" alt="drawtile">
+<img src="/assets/image/tiles/9-man.png" alt="drawtile">
+<img src="/assets/image/tiles/2-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/3-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/4-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/5-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/5-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/6-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/7-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/3-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/4-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/5-sou.png" alt="drawtile">
 
 </div>
 
-This hand is now waiting for  ![singletile](../../assets/image/tiles/2-pin.png)  ![singletile](../../assets/image/tiles/5-pin.png)  ![singletile](../../assets/image/tiles/8-pin.png)  (3 kinds–9 tiles). When a hand is missing the head, it is often the case that the wait gets significantly  
-improved quite easily.
+This hand is now waiting for  ![singletile](../../assets/image/tiles/2-pin.png)  ![singletile](../../assets/image/tiles/5-pin.png) — ![singletile](../../assets/image/tiles/8-pin.png)  (3 kinds–9 tiles). When a hand is missing the head, it is often the case that the wait gets significantly improved quite easily.
 
 
-## Pairs and sets
-Another important role a pair can play is to work as a candidate
-for a set. Especially when a hand has two pairs, we can count on
-one of the two pairs to become the head while the other becomes a
-set. In other words, the value of pairs is maximized when there are
-two (and only two) pairs in a hand. Let’s see why this is the case by
-comparing hands with one, two, and three pairs.
+## 3.2.6 Pairs and sets
+Another important role a pair can play is to work as a candidate for a set. Especially when a hand has two pairs, we can count on one of the two pairs to become the head while the other becomes a set. In other words, the value of pairs is maximized when there are two (and only two) pairs in a hand. Let’s see why this is the case by comparing hands with one, two, and three pairs.
 
 <fieldset class="mahjong-group">
   <legend>1. Hand with one pair</legend>
 
-![drawtile](../../assets/image/tiles/1-man.png)
-![drawtile](../../assets/image/tiles/3-man.png)
-![drawtile](../../assets/image/tiles/5-man.png)
-![drawtile](../../assets/image/tiles/5-pin.png)
-![drawtile](../../assets/image/tiles/6-pin.png)
-![drawtile](../../assets/image/tiles/7-pin.png)
-![drawtile](../../assets/image/tiles/8-pin.png)
-![drawtile](../../assets/image/tiles/9-pin.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/6-sou.png)
-![drawtile](../../assets/image/tiles/7-sou.png)
-![drawtile](../../assets/image/tiles/pei.png)
+<img src="/assets/image/tiles/1-man.png" alt="drawtile">
+<img src="/assets/image/tiles/3-man.png" alt="drawtile">
+<img src="/assets/image/tiles/5-man.png" alt="drawtile">
+<img src="/assets/image/tiles/5-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/6-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/7-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/8-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/9-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/6-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/7-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/pei.png" alt="drawtile">
 
 </fieldset>
 
@@ -451,19 +442,19 @@ What if a hand has two pairs? Suppose we drew ![singletile](../../assets/image/t
 <fieldset class="mahjong-group">
   <legend>2. Hand with two pairs</legend>
 
-![drawtile](../../assets/image/tiles/1-man.png)
-![drawtile](../../assets/image/tiles/1-man.png)
-![drawtile](../../assets/image/tiles/3-man.png)
-![drawtile](../../assets/image/tiles/5-man.png)
-![drawtile](../../assets/image/tiles/5-pin.png)
-![drawtile](../../assets/image/tiles/6-pin.png)
-![drawtile](../../assets/image/tiles/7-pin.png)
-![drawtile](../../assets/image/tiles/8-pin.png)
-![drawtile](../../assets/image/tiles/9-pin.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/6-sou.png)
-![drawtile](../../assets/image/tiles/7-sou.png)
+<img src="/assets/image/tiles/1-man.png" alt="drawtile">
+<img src="/assets/image/tiles/1-man.png" alt="drawtile">
+<img src="/assets/image/tiles/3-man.png" alt="drawtile">
+<img src="/assets/image/tiles/5-man.png" alt="drawtile">
+<img src="/assets/image/tiles/5-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/6-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/7-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/8-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/9-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/6-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/7-sou.png" alt="drawtile">
 
 </fieldset>
 
@@ -477,24 +468,21 @@ What if a hand has three pairs? Suppose we draw ![singletile](../../assets/image
 <fieldset class="mahjong-group">
   <legend>3. Hand with three pairs</legend>
 
-![drawtile](../../assets/image/tiles/1-man.png)
-![drawtile](../../assets/image/tiles/1-man.png)
-![drawtile](../../assets/image/tiles/3-man.png)
-![drawtile](../../assets/image/tiles/5-man.png)
-![drawtile](../../assets/image/tiles/5-pin.png)
-![drawtile](../../assets/image/tiles/6-pin.png)
-![drawtile](../../assets/image/tiles/7-pin.png)
-![drawtile](../../assets/image/tiles/8-pin.png)
-![drawtile](../../assets/image/tiles/9-pin.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/6-sou.png)
-![drawtile](../../assets/image/tiles/7-sou.png)
-
-
-<figure class="tile-with-caption">
-    <img src="/assets/image/tiles/9-sou.png"
-         alt="drawtile">
+<img src="/assets/image/tiles/1-man.png" alt="drawtile">
+<img src="/assets/image/tiles/1-man.png" alt="drawtile">
+<img src="/assets/image/tiles/3-man.png" alt="drawtile">
+<img src="/assets/image/tiles/5-man.png" alt="drawtile">
+<img src="/assets/image/tiles/5-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/6-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/7-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/8-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/9-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/6-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/7-sou.png" alt="drawtile">
+<figure class="caption2">
+    <img src="/assets/image/tiles/9-sou.png" alt="checktile">
     <figcaption>Draw</figcaption>
 </figure>
 
