@@ -492,10 +492,7 @@ What if a hand has three pairs? Suppose we draw ![singletile](../../assets/image
 If we keep the second ![singletile](../../assets/image/tiles/6-sou.png) and discard the ![singletile](../../assets/image/tiles/7-sou.png) or the ![singletile](../../assets/image/tiles/5-man.png), the hand has three pairs. However, keeping three pairs in a hand is inefficient. Recall  that each additional pair increases tile acceptance by two tiles. In  this case, keeping a pair of ![singletile](../../assets/image/tiles/6-sou.png) means that the hand can accept two  additional tiles of ![singletile](../../assets/image/tiles/6-sou.png). However, doing so comes with a cost. Keeping  three pairs by discarding the ![singletile](../../assets/image/tiles/7-sou.png) means the hand can no longer  accept ![singletile](../../assets/image/tiles/5-sou.png) ![singletile](../../assets/image/tiles/8-sou.png) (2 kinds–8 tiles). The net tile acceptance gain will be  negative (2 - 8 = -6). Similarly, keeping three pairs by discarding  the ![singletile](../../assets/image/tiles/5-man.png) means the hand can no longer accept ![singletile](../../assets/image/tiles/4-man.png) (4 tiles). Therefore,  discarding a ![singletile](../../assets/image/tiles/6-sou.png) to maintain two pairs is the most efficient.
 
 
-What we have seen so far is generalizable beyond the current ex-amples. As long as we intend to keep the hand closed (i.e., not calling
-pon or chii), we should avoid having three pairs in a hand. Having three pairs makes for the weakest form, whereas having two pairs
-makes for the strongest form.
-11
+What we have seen so far is generalizable beyond the current ex-amples. As long as we intend to keep the hand closed (i.e., not calling pon or chii), we should avoid having three pairs in a hand. Having three pairs makes for the weakest form, whereas having two pairs makes for the strongest form.[^11]
 
 
 
@@ -509,37 +506,34 @@ makes for the strongest form.
 
 
 
-Open hand
+### Open hand
 
-There is an important caveat to the above rule. When we intend
-to call pon, having three pairs is actually better than having two pairs.
-This is because the hand will become a two-pair hand after we call
-pon once. For example, consider the following hand.
+There is an important caveat to the above rule. When we intend to call pon, having three pairs is actually better than having two pairs. This is because the hand will become a two-pair hand after we call pon once. For example, consider the following hand.
 
 
 <fieldset class="mahjong-group">
 <legend>Two pairs vs. three pairs</legend>
 
 
-![drawtile](../../assets/image/tiles/1-man.png)
-![drawtile](../../assets/image/tiles/1-man.png)
-![drawtile](../../assets/image/tiles/3-man.png)
-![drawtile](../../assets/image/tiles/5-man.png)
-![drawtile](../../assets/image/tiles/4-pin.png)
-![drawtile](../../assets/image/tiles/5-pin.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/4-sou.png)
-![drawtile](../../assets/image/tiles/4-sou.png)
-![drawtile](../../assets/image/tiles/7-sou.png)
-![drawtile](../../assets/image/tiles/8-sou.png)
-![drawtile](../../assets/image/tiles/9-sou.png)
-![drawtile](../../assets/image/tiles/chun.png)
-![drawtile](../../assets/image/tiles/chun.png)
+<img src="/assets/image/tiles/1-man.png" alt="drawtile">
+<img src="/assets/image/tiles/1-man.png" alt="drawtile">
+<img src="/assets/image/tiles/3-man.png" alt="drawtile">
+<img src="/assets/image/tiles/5-man.png" alt="drawtile">
+<img src="/assets/image/tiles/4-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/5-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/4-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/4-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/7-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/8-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/9-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/chun.png" alt="drawtile">
+<img src="/assets/image/tiles/chun.png" alt="drawtile">
 
 
-<figure class="tile-with-caption">
+<figure class="caption2">
     <img src="/assets/image/tiles/chun.png"
-         alt="drawtile">
+         alt="checktile">
     <figcaption>Dora</figcaption>
 </figure>
 
@@ -553,37 +547,43 @@ We would definitely intend to call pon on ![singletile](../../assets/image/tiles
 
 <div class="no-border">
 
-![drawtile](../../assets/image/tiles/1-man.png)
-![drawtile](../../assets/image/tiles/1-man.png)
-![drawtile](../../assets/image/tiles/4-pin.png)
-![drawtile](../../assets/image/tiles/5-pin.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/4-sou.png)
-![drawtile](../../assets/image/tiles/4-sou.png)
-![drawtile](../../assets/image/tiles/7-sou.png)
-![drawtile](../../assets/image/tiles/8-sou.png)
-![drawtile](../../assets/image/tiles/9-sou.png)
+<img src="/assets/image/tiles/1-man.png" alt="drawtile">
+<img src="/assets/image/tiles/1-man.png" alt="drawtile">
+<img src="/assets/image/tiles/4-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/5-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/4-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/4-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/7-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/8-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/9-sou.png" alt="drawtile">
 
-![drawtile](../../assets/image/tiles/chun.png)
-![verticaldrawtile](../../assets/image/tiles/h-chun.png)
-![drawtile](../../assets/image/tiles/chun.png)
+<figure class="caption2">
+  <img src="/assets/image/tiles/chun.png" alt="drawtile">
+</figure>
+<img src="/assets/image/tiles/h-chun.png" alt="verticaldrawtile">
+<img src="/assets/image/tiles/chun.png" alt="drawtile">
+</div>
 
-<br/>
+<div class="no-border">
 
-![drawtile](../../assets/image/tiles/1-man.png)
-![drawtile](../../assets/image/tiles/1-man.png)
-![drawtile](../../assets/image/tiles/3-man.png)
-![drawtile](../../assets/image/tiles/4-pin.png)
-![drawtile](../../assets/image/tiles/5-pin.png)
-![drawtile](../../assets/image/tiles/4-sou.png)
-![drawtile](../../assets/image/tiles/4-sou.png)
-![drawtile](../../assets/image/tiles/7-sou.png)
-![drawtile](../../assets/image/tiles/8-sou.png)
-![drawtile](../../assets/image/tiles/9-sou.png)
 
-![drawtile](../../assets/image/tiles/chun.png)
-![verticaldrawtile](../../assets/image/tiles/h-chun.png)
-![drawtile](../../assets/image/tiles/chun.png)
+<img src="/assets/image/tiles/1-man.png" alt="drawtile">
+<img src="/assets/image/tiles/1-man.png" alt="drawtile">
+<img src="/assets/image/tiles/3-man.png" alt="drawtile">
+<img src="/assets/image/tiles/4-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/5-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/4-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/4-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/7-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/8-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/9-sou.png" alt="drawtile">
+
+<figure class="caption2">
+  <img src="/assets/image/tiles/chun.png" alt="drawtile">
+</figure>
+<img src="/assets/image/tiles/h-chun.png" alt="verticaldrawtile">
+<img src="/assets/image/tiles/chun.png" alt="drawtile">
 
 </div>
 
@@ -601,77 +601,64 @@ In either case, the hand will have two pairs after calling pon.
 
 
 
-## Perfect n-away
-Perfect 1-away
+## 3.2.7Perfect n-away
 
-When a 1-away hand has two side-wait protoruns and two pairs,
-it is called perfect 1-away.
+### Perfect 1-away
 
-
-
+When a 1-away hand has two side-wait protoruns and two pairs, it is called **perfect 1-away.**
 
 <fieldset class="mahjong-group">
 <legend>Perfect 1-away</legend>
 
 
-![drawtile](../../assets/image/tiles/2-man.png)
-![drawtile](../../assets/image/tiles/3-man.png)
-![drawtile](../../assets/image/tiles/3-man.png)
-![drawtile](../../assets/image/tiles/1-pin.png)
-![drawtile](../../assets/image/tiles/2-pin.png)
-![drawtile](../../assets/image/tiles/3-pin.png)
-![drawtile](../../assets/image/tiles/6-pin.png)
-![drawtile](../../assets/image/tiles/6-pin.png)
-![drawtile](../../assets/image/tiles/6-sou.png)
-![drawtile](../../assets/image/tiles/7-sou.png)
-![drawtile](../../assets/image/tiles/haku.png)
-![drawtile](../../assets/image/tiles/haku.png)
-![drawtile](../../assets/image/tiles/haku.png)
+<img src="/assets/image/tiles/2-man.png" alt="drawtile">
+<img src="/assets/image/tiles/3-man.png" alt="drawtile">
+<img src="/assets/image/tiles/3-man.png" alt="drawtile">
+<img src="/assets/image/tiles/1-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/2-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/3-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/6-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/6-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/6-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/7-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/haku.png" alt="drawtile">
+<img src="/assets/image/tiles/haku.png" alt="drawtile">
+<img src="/assets/image/tiles/haku.png" alt="drawtile">
+
 
 </fieldset>
 
-The hand above is an example of perfect 1-away. It is called “perfect”
-because this hand can become ready either by calling chii, calling
-pon, or drawing a tile to complete a run or a set, and no matter how a
-hand becomes ready, you will always have the option to choose side
-wait as the ﬁnal wait.
+The hand above is an example of perfect 1-away. It is called “perfect” because this hand can become ready either by calling chii, calling pon, or drawing a tile to complete a run or a set, and no matter how a hand becomes ready, you will always have the option to choose side wait as the ﬁnal wait.
 
-Perfect 2-away
+### Perfect 2-away
 
-One step prior to achieving perfect 1-away, we may get a perfect
-2-away hand. Perfect 2-away is made up with three side-wait protoruns
-and three pairs, as follows.
-
+One step prior to achieving perfect 1-away, we may get a perfect 2-away hand. Perfect 2-away is made up with three side-wait protoruns and three pairs, as follows.
 
 
 <fieldset class="mahjong-group">
 <legend>Perfect 2-away</legend>
 
+<img src="/assets/image/tiles/2-man.png" alt="drawtile">
+<img src="/assets/image/tiles/3-man.png" alt="drawtile">
+<img src="/assets/image/tiles/3-man.png" alt="drawtile">
+<img src="/assets/image/tiles/2-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/3-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/6-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/6-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/6-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/7-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/7-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/haku.png" alt="drawtile">
+<img src="/assets/image/tiles/haku.png" alt="drawtile">
+<img src="/assets/image/tiles/haku.png" alt="drawtile">
 
-![drawtile](../../assets/image/tiles/2-man.png)
-![drawtile](../../assets/image/tiles/3-man.png)
-![drawtile](../../assets/image/tiles/3-man.png)
-![drawtile](../../assets/image/tiles/2-pin.png)
-![drawtile](../../assets/image/tiles/3-pin.png)
-![drawtile](../../assets/image/tiles/6-pin.png)
-![drawtile](../../assets/image/tiles/6-pin.png)
-![drawtile](../../assets/image/tiles/6-sou.png)
-![drawtile](../../assets/image/tiles/7-sou.png)
-![drawtile](../../assets/image/tiles/7-sou.png)
-![drawtile](../../assets/image/tiles/haku.png)
-![drawtile](../../assets/image/tiles/haku.png)
-![drawtile](../../assets/image/tiles/haku.png)
 
 </fieldset>
 
-When a perfect 2-away hand becomes 1-away, it can always be perfect
-1-away (unless you choose not to, for some reason). However, not all
-perfect 1-away hands evolve from a perfect 2-away hand.
+When a perfect 2-away hand becomes 1-away, it can always be perfect 1-away (unless you choose not to, for some reason). However, not all perfect 1-away hands evolve from a perfect 2-away hand.
 
-## Putting things all together: an example
-Let’s see some hand examples that illustrate how we can apply
-the tile eﬃciency logics we have learned so far. Consider the following
-2-away hand.
+## 3.2.8 Putting things all together: an example
+Let’s see some hand examples that illustrate how we can apply the tile eﬃciency logics we have learned so far. Consider the following 2-away hand.
 
 
 
@@ -679,24 +666,25 @@ the tile eﬃciency logics we have learned so far. Consider the following
 <legend>Advancing a hand 1</legend>
 
 
-![drawtile](../../assets/image/tiles/5-man.png)
-![drawtile](../../assets/image/tiles/5-man.png)
-![drawtile](../../assets/image/tiles/7-man.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/4-sou.png)
-![drawtile](../../assets/image/tiles/8-sou.png)
-![drawtile](../../assets/image/tiles/8-sou.png)
-![drawtile](../../assets/image/tiles/9-sou.png)
-![drawtile](../../assets/image/tiles/2-pin.png)
-![drawtile](../../assets/image/tiles/3-pin.png)
-![drawtile](../../assets/image/tiles/7-pin.png)
-![drawtile](../../assets/image/tiles/8-pin.png)
-![drawtile](../../assets/image/tiles/9-pin.png)
+<img src="/assets/image/tiles/5-man.png" alt="drawtile">
+<img src="/assets/image/tiles/5-man.png" alt="drawtile">
+<img src="/assets/image/tiles/7-man.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/4-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/8-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/8-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/9-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/2-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/3-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/7-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/8-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/9-pin.png" alt="drawtile">
 
 
-<figure class="tile-with-caption">
+
+<figure class="caption2">
     <img src="/assets/image/tiles/2-sou.png"
-         alt="drawtile">
+         alt="checktile">
     <figcaption>Draw</figcaption>
 </figure>
 
@@ -706,24 +694,9 @@ the tile eﬃciency logics we have learned so far. Consider the following
 </fieldset>
 
 
-The hand now has three pairs, and we should avoid it. In order to reduce
-the number of pairs in this hand from three to two, our discard
-candidates should be ![singletile](../../assets/image/tiles/5-man.png), ![singletile](../../assets/image/tiles/2-sou.png), or ![singletile](../../assets/image/tiles/8-sou.png). Which one should we choose?
+The hand now has three pairs, and we should avoid it. In order to reduce the number of pairs in this hand from three to two, our discard candidates should be ![singletile](../../assets/image/tiles/5-man.png), ![singletile](../../assets/image/tiles/2-sou.png), or ![singletile](../../assets/image/tiles/8-sou.png). Which one should we choose?
 
-Recall that a closed-wait protorun of 57 is stronger than a closed-
-wait protorun of 24 or an edge-wait protorun of 89. Therefore, it is
-OK to cut down the ![singletile](../../assets/image/tiles/5-man.png)![singletile](../../assets/image/tiles/5-man.png)![singletile](../../assets/image/tiles/7-man.png) shape to ![singletile](../../assets/image/tiles/5-man.png)![singletile](../../assets/image/tiles/7-man.png) by discarding ![singletile](../../assets/image/tiles/5-man.png). This is
-because ![singletile](../../assets/image/tiles/5-man.png)![singletile](../../assets/image/tiles/7-man.png) can become a side-wait protorun relatively easily. On
-the other hand, the ![singletile](../../assets/image/tiles/2-sou.png)![singletile](../../assets/image/tiles/2-sou.png)
-![singletile](../../assets/image/tiles/4-sou.png) shape and the ![singletile](../../assets/image/tiles/8-sou.png)![singletile](../../assets/image/tiles/8-sou.png)
-![singletile](../../assets/image/tiles/9-sou.png) shape are both
-weak; the first can become a side-wait protorun only if we draw ![singletile](../../assets/image/tiles/5-sou.png),
-and the second one will never become a side-wait protorun in one
-step. Therefore, both ![singletile](../../assets/image/tiles/2-sou.png)![singletile](../../assets/image/tiles/2-sou.png)
-![singletile](../../assets/image/tiles/4-sou.png) and ![singletile](../../assets/image/tiles/8-sou.png)![singletile](../../assets/image/tiles/8-sou.png)
-![singletile](../../assets/image/tiles/9-sou.png) should be kept as a candidate
-for the head or a group rather than making them into weak
-closed-wait protoruns.
+Recall that a closed-wait protorun of 57 is stronger than a closed- wait protorun of 24 or an edge-wait protorun of 89. Therefore, it is OK to cut down the ![singletile](../../assets/image/tiles/5-man.png)![singletile](../../assets/image/tiles/5-man.png)![singletile](../../assets/image/tiles/7-man.png) shape to ![singletile](../../assets/image/tiles/5-man.png)![singletile](../../assets/image/tiles/7-man.png) by discarding ![singletile](../../assets/image/tiles/5-man.png). This is because ![singletile](../../assets/image/tiles/5-man.png)![singletile](../../assets/image/tiles/7-man.png) can become a side-wait protorun relatively easily. On the other hand, the ![singletile](../../assets/image/tiles/2-sou.png)![singletile](../../assets/image/tiles/2-sou.png) ![singletile](../../assets/image/tiles/4-sou.png) shape and the ![singletile](../../assets/image/tiles/8-sou.png)![singletile](../../assets/image/tiles/8-sou.png) ![singletile](../../assets/image/tiles/9-sou.png) shape are both weak; the first can become a side-wait protorun only if we draw ![singletile](../../assets/image/tiles/5-sou.png), and the second one will never become a side-wait protorun in one step. Therefore, both ![singletile](../../assets/image/tiles/2-sou.png)![singletile](../../assets/image/tiles/2-sou.png) ![singletile](../../assets/image/tiles/4-sou.png) and ![singletile](../../assets/image/tiles/8-sou.png)![singletile](../../assets/image/tiles/8-sou.png) ![singletile](../../assets/image/tiles/9-sou.png) should be kept as a candidate for the head or a group rather than making them into weak closed-wait protoruns.
 
 Let’s say we discard ![singletile](../../assets/image/tiles/5-man.png), and then we draw ![singletile](../../assets/image/tiles/8-man.png), resulting in the
 following hand.
@@ -735,24 +708,23 @@ following hand.
 <legend>Advancing a hand 2</legend>
 
 
-![drawtile](../../assets/image/tiles/5-man.png)
-![drawtile](../../assets/image/tiles/7-man.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/4-sou.png)
-![drawtile](../../assets/image/tiles/8-sou.png)
-![drawtile](../../assets/image/tiles/8-sou.png)
-![drawtile](../../assets/image/tiles/9-sou.png)
-![drawtile](../../assets/image/tiles/2-pin.png)
-![drawtile](../../assets/image/tiles/3-pin.png)
-![drawtile](../../assets/image/tiles/7-pin.png)
-![drawtile](../../assets/image/tiles/8-pin.png)
-![drawtile](../../assets/image/tiles/9-pin.png)
+<img src="/assets/image/tiles/5-man.png" alt="drawtile">
+<img src="/assets/image/tiles/7-man.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/4-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/8-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/8-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/9-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/2-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/3-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/7-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/8-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/9-pin.png" alt="drawtile">
 
-
-<figure class="tile-with-caption">
+<figure class="caption2">
     <img src="/assets/image/tiles/8-man.png"
-         alt="drawtile">
+         alt="checktile">
     <figcaption>Draw</figcaption>
 </figure>
 
@@ -771,24 +743,25 @@ Let’s say we draw ![onetile](../../assets/image/souzu/7-sou.png), resulting in
 <legend>Advancing a hand 3</legend>
 
 
-![drawtile](../../assets/image/tiles/7-man.png)
-![drawtile](../../assets/image/tiles/8-man.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/4-sou.png)
-![drawtile](../../assets/image/tiles/8-sou.png)
-![drawtile](../../assets/image/tiles/8-sou.png)
-![drawtile](../../assets/image/tiles/9-sou.png)
-![drawtile](../../assets/image/tiles/2-pin.png)
-![drawtile](../../assets/image/tiles/3-pin.png)
-![drawtile](../../assets/image/tiles/7-pin.png)
-![drawtile](../../assets/image/tiles/8-pin.png)
-![drawtile](../../assets/image/tiles/9-pin.png)
+<img src="/assets/image/tiles/7-man.png" alt="drawtile">
+<img src="/assets/image/tiles/8-man.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/4-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/8-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/8-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/9-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/2-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/3-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/7-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/8-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/9-pin.png" alt="drawtile">
 
 
-<figure class="tile-with-caption">
+
+<figure class="caption2">
     <img src="/assets/image/tiles/7-sou.png"
-         alt="drawtile">
+         alt="checktile">
     <figcaption>Draw</figcaption>
 </figure>
 
@@ -806,24 +779,25 @@ Let's say we draw ![singletile](../../assets/image/tiles/4-pin.png) after that, 
 <legend>Advancing a hand 4</legend>
 
 
-![drawtile](../../assets/image/tiles/7-man.png)
-![drawtile](../../assets/image/tiles/8-man.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/2-sou.png)
-![drawtile](../../assets/image/tiles/7-sou.png)
-![drawtile](../../assets/image/tiles/8-sou.png)
-![drawtile](../../assets/image/tiles/8-sou.png)
-![drawtile](../../assets/image/tiles/9-sou.png)
-![drawtile](../../assets/image/tiles/2-pin.png)
-![drawtile](../../assets/image/tiles/3-pin.png)
-![drawtile](../../assets/image/tiles/7-pin.png)
-![drawtile](../../assets/image/tiles/8-pin.png)
-![drawtile](../../assets/image/tiles/9-pin.png)
+<img src="/assets/image/tiles/7-man.png" alt="drawtile">
+<img src="/assets/image/tiles/8-man.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/2-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/7-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/8-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/8-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/9-sou.png" alt="drawtile">
+<img src="/assets/image/tiles/2-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/3-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/7-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/8-pin.png" alt="drawtile">
+<img src="/assets/image/tiles/9-pin.png" alt="drawtile">
 
 
-<figure class="tile-with-caption">
+
+<figure class="caption2">
     <img src="/assets/image/tiles/4-pin.png"
-         alt="drawtile">
+         alt="checktile">
     <figcaption>Draw</figcaption>
 </figure>
 
@@ -831,10 +805,7 @@ Let's say we draw ![singletile](../../assets/image/tiles/4-pin.png) after that, 
 
 </fieldset>
 
-The hand is now ready. We should discard ![singletile](../../assets/image/tiles/8-sou.png) and call riichi. If we
-win on ![singletile](../../assets/image/tiles/9-man.png), we can claim riichi, pinfu, and sanshoku (Mixed Triple
-Chow), giving us 7700 points.
-12
+The hand is now ready. We should discard ![singletile](../../assets/image/tiles/8-sou.png) and call riichi. If we win on ![singletile](../../assets/image/tiles/9-man.png), we can claim riichi, pinfu, and sanshoku (Mixed Triple Chow), giving us 7700 points. [^12]
 
 ## Footnotes
 
