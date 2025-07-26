@@ -26,6 +26,7 @@
 - [3.5. Glossary](../03_Riichi_mahjong_basics/05_Glossary.md)
 
 ### 4. The Five-Block Method
+- [4.0 The Five Block Method](../04_The_ﬁve-block_method/00_The_five_block_method.md)
 - [4.1 Finding a redundant tile](../04_The_ﬁve-block_method/01_Finding_a_redundant_tile.md)
 - [4.2 Alternative configurations](../04_The_ﬁve-block_method/02_Alternative_conﬁgurations.md)
 - [4.3 Selecting tile blocks](../04_The_ﬁve-block_method/03_Selecting_tile_blocks.md)
