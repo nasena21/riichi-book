@@ -260,9 +260,9 @@ Table 3.1: Types of protoruns
 
 | Name        | Japanese   | Example                                                                 | Wait                                     | Acceptance       |
 |-------------|------------|--------------------------------------------------------------------------|------------------------------------------|------------------|
-| side wait   | *ryanmen*  | ![singletile](../../assets/image/tiles/3-man.png) ![singletile](../../assets/image/tiles/4-man.png) | ![singletile](../../assets/image/tiles/2-man.png) ![singletile](../../assets/image/tiles/5-man.png) | 2 kinds–8 tiles  |
-| closed wait | *kanchan*  | ![singletile](../../assets/image/tiles/2-pin.png) ![singletile](../../assets/image/tiles/4-pin.png) | ![singletile](../../assets/image/tiles/3-pin.png)              | 1 kind–4 tiles   |
-| edge wait   | *penchan*  | ![singletile](../../assets/image/tiles/8-sou.png) ![singletile](../../assets/image/tiles/9-sou.png) | ![singletile](../../assets/image/tiles/7-sou.png)              | 1 kind–4 tiles   |
+| side wait   | *ryanmen*  | ![tsingletile](../../assets/image/tiles/3-man.png) ![tsingletile](../../assets/image/tiles/4-man.png) | ![tsingletile](../../assets/image/tiles/2-man.png) ![tsingletile](../../assets/image/tiles/5-man.png) | 2 kinds–8 tiles  |
+| closed wait | *kanchan*  | ![tsingletile](../../assets/image/tiles/2-pin.png) ![tsingletile](../../assets/image/tiles/4-pin.png) | ![tsingletile](../../assets/image/tiles/3-pin.png)              | 1 kind–4 tiles   |
+| edge wait   | *penchan*  | ![tsingletile](../../assets/image/tiles/8-sou.png) ![tsingletile](../../assets/image/tiles/9-sou.png) | ![tsingletile](../../assets/image/tiles/7-sou.png)              | 1 kind–4 tiles   |
 
 As we can see in the table, a **side-wait** (ryanmen) protorun can accept twice as many tiles as a **closed-wait** (kanchan) protorun or an **edge-wait** (penchan) protorun can. Therefore, building side-wait protoruns is the key to advancing a hand. Winning tiles of side-wait protoruns are often denoted with a hyphen in the middle, such as ![singletile](../../assets/image/tiles/1-sou.png)-![singletile](../../assets/image/tiles/4-sou.png) or ![singletile](../../assets/image/tiles/5-pin.png)-![singletile](../../assets/image/tiles/8-pin.png). [^10]
 
